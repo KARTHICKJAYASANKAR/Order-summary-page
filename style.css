@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+    background-color: white;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+.card{
+    background-color: white;
+    width: 28em;
+    overflow: hidden;
+    max-height: 850px;
+    border-radius: 5%;
+
+}
+
+.btm-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descriptions{
+    text-align: center;
+}
+.descriptions > h2{
+    font-weight: 800;
+}
+.descriptions > p{
+    font-weight: 400;
+    color: hsla(223, 47%, 23%, 0.486);
+}
+
+.annualplan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 1em;
+    padding: 0em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.planfirst{
+    display: flex;
+    justify-content: space-between;
+    width: 10.2em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.planfirst > div > h3,
+.planfirst > div > p{
+    margin: 0;
+}
+
+.planfirst > div > p{
+    color: hsla(223, 47%, 23%, 0.486);
+}
+
+.annualplan{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.annualplan > div:nth-child(2){
+    width: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.annualplan > div:nth-child(2) > h4{
+    text-decoration: underline;
+}
+
+.btm-part{
+    padding: 3em;
+}
+
+.lastbuttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.lastbuttons > button:nth-child(1){
+    background-color:  hsl(245, 75%, 52%);
+    padding: 1em;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border: none;
+}
+.lastbuttons > button:nth-child(1):hover{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.507);
+}
+.lastbuttons > button:nth-child(2){
+    background-color: white;
+    padding: 1em;
+    color: rgba(128, 128, 128, 0.493);
+    font-weight: 600;
+    font-size: large;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+
+.lastbuttons > button:nth-child(2):hover{
+    border: 2px solid hsl(245, 75%, 52%);
+    color: rgba(128, 128, 128, 0.836);
+}
